@@ -1,0 +1,33 @@
+
+.admin-status-badge{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    padding:8px 14px;
+    border-radius:999px;
+    font-weight:800;
+    font-size:12px;
+}
+.status-normal{background:rgba(22,199,132,.18);color:#20e69b;}
+.status-critical{background:rgba(255,77,77,.18);color:#ff6b6b;}
+.status-offline{background:rgba(148,163,184,.16);color:#cbd5e1;}
+.admin-alert-card{
+    background:rgba(255,255,255,.05);
+    border:1px solid rgba(255,255,255,.08);
+    border-radius:18px;
+    padding:16px;
+    margin-bottom:12px;
+}
+.admin-alert-card strong{display:block;color:#fff;margin-bottom:6px;}
+.admin-alert-card div{color:#9ecbff;margin-bottom:6px;}
+.admin-alert-card small{display:block;color:#cbd5e1;line-height:1.4;margin-bottom:8px;}
+.admin-alert-card span{
+    display:inline-flex;
+    padding:6px 12px;
+    border-radius:999px;
+    background:rgba(255,77,77,.18);
+    color:#ff6b6b;
+    font-weight:800;
+    font-size:12px;
+}
+.admin-empty{color:#94a3b8;padding:20px;text-align:center;}

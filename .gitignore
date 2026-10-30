@@ -1,0 +1,18 @@
+
+# Environment variables and secrets
+.env
+.env.*
+**/.env
+**/.env.*
+
+# Keep example environment files
+!.env.example
+!**/.env.example
+
+# Dependencies
+node_modules/
+vendor/
+
+# Temporary files
+*.log
+.DS_Store
